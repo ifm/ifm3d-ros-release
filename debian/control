@@ -1,0 +1,12 @@
+Source: ros-melodic-ifm3d
+Section: misc
+Priority: optional
+Maintainer: Sean Kelly <sean.kelly@ifm.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cv-bridge, ros-melodic-ifm3d-core, ros-melodic-image-transport, ros-melodic-message-generation, ros-melodic-nodelet, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-rostest, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ifm3d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cv-bridge, ros-melodic-ifm3d-core, ros-melodic-image-transport, ros-melodic-message-generation, ros-melodic-nodelet, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Description: ifm pmd-based 3D ToF Camera ROS package
