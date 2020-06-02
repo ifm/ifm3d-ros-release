@@ -70,7 +70,7 @@ tracks:
     release_inc: '2'
     release_repo_url: null
     release_tag: v:{version}
-    ros_distro: melodic
+    ros_distro: noetic
     vcs_type: git
     vcs_uri: https://github.com/ifm/ifm3d-ros
     version: :{auto}
