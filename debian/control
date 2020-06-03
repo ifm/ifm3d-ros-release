@@ -1,0 +1,12 @@
+Source: ros-noetic-ifm3d
+Section: misc
+Priority: optional
+Maintainer: Sean Kelly <sean.kelly@ifm.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-cv-bridge, ros-noetic-ifm3d-core, ros-noetic-image-transport, ros-noetic-message-generation, ros-noetic-nodelet, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-rostest, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ifm3d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-cv-bridge, ros-noetic-ifm3d-core, ros-noetic-image-transport, ros-noetic-message-generation, ros-noetic-nodelet, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
+Description: ifm pmd-based 3D ToF Camera ROS package
